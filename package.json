@@ -1,0 +1,26 @@
+{
+  "name": "super-veg-boy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src --out-dir dist --copy-files --watch",
+    "server": "browser-sync start --server --files \"./dist/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagfsantos/SuperVegBoy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vagfsantos/SuperVegBoy/issues"
+  },
+  "homepage": "https://github.com/vagfsantos/SuperVegBoy#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13"
+  }
+}

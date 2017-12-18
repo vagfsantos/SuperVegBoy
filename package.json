@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "babel src --out-dir dist --copy-files --watch",
-    "server": "browser-sync start --server --files \"./dist/\""
+    "server": "browser-sync start --server --files \"./dist/\" --startPath \"/dist/\""
   },
   "repository": {
     "type": "git",

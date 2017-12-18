@@ -1,9 +1,9 @@
-import test from './js/test.js';
+import { Game } from './../../dist/Game.js';
 
 class Main
 {
   constructor() {
-    new test().log();
+    console.log(Game.log())
   }
 }
 

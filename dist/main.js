@@ -1,8 +1,8 @@
 'use strict';
 
-var _test = require('./js/test.js');
+var _GameEngine = require('./../dist/GameEngine.js');
 
-var _test2 = _interopRequireDefault(_test);
+var _GameEngine2 = _interopRequireDefault(_GameEngine);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11,7 +11,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var Main = function Main() {
   _classCallCheck(this, Main);
 
-  new _test2.default().log();
+  console.log(_GameEngine2.default);
 };
 
 new Main();

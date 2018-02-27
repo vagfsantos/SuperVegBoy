@@ -1,7 +1,0 @@
-{
-  "presets": ["es2015"],
-  "sourceMaps": true,
-  "ignore": [
-    "node_modules/**/*.js"
-  ]
-}

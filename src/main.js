@@ -1,10 +1,12 @@
-import { Game } from '../lib/index';
+import { Game, Assets } from '../lib/index';
 
-class Main
-{
-  constructor() {
-    console.log( Game.create() )
-  }
-}
+let game = Game.create({
+  name: 'game',
+  selector: 'body',
+  width: 600,
+  height: 450
+})
 
-new Main();
+Assets.loadImage(
+  'name:../assets/imgs.jpg')
+console.log(game)

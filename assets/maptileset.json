@@ -1,0 +1,12 @@
+{ "columns":32,
+ "image":"..\/..\/..\/quintus\/assets\/map\/titles\/spritesheet.png",
+ "imageheight":640,
+ "imagewidth":640,
+ "margin":0,
+ "name":"tile",
+ "spacing":0,
+ "tilecount":1024,
+ "tileheight":20,
+ "tilewidth":20,
+ "type":"tileset"
+}

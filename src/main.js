@@ -16,7 +16,24 @@ let scene = new Scene(game)
 
 let obj = new GameObject()
 
+obj.attr = {
+  x: 0
+}
+
+obj.onUpdate(function(){
+  this.attr = {
+    x: this.attr.x + 1
+  }
+})
+
+obj.onDraw(function(ctx){
+  ctx.fillStyle = "#000"
+  ctx.fillRect(this.__attr.x,0,50,50)
+})
+
 scene.addGameObject(obj)
+
+scene.addMap('map')
 
 world.addScene(scene)
 
